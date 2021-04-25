@@ -4,7 +4,7 @@
         "label": "Project Name",
         "type": "char",
         "length": 32,
-        "value": "ESP8266 IoT Framework"
+        "value": "Wifi Power Meter"
     },
     {
         "name": "language",        
@@ -12,5 +12,45 @@
         "length": 3,
         "value": "en",
         "hidden": true
-    }
+    },
+        {
+            "name": "stringInput",
+            "type": "char",
+            "length": 32,
+            "direction": "control"
+        },
+        {
+            "name": "dummyInt",
+            "type": "uint16_t",
+            "direction": "display"
+        },
+        {
+            "name": "dummyBool",
+            "type": "bool",
+            "direction": "display"
+        },
+        {
+            "name": "dummyFloat",
+            "type": "float",
+            "direction": "display",
+            "display": "graph",
+            "xaxis": 20
+        },
+        {
+            "name": "inputInt",
+            "type": "uint16_t",
+            "direction": "control"
+        },
+        {
+            "name": "inputBool",
+            "type": "bool",
+            "direction": "control"
+        },
+        {
+            "name": "inputFloat",
+            "type": "float",
+            "min": 1,
+            "max": 10,
+            "direction": "control"
+        }
 ]
